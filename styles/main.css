@@ -1,0 +1,129 @@
+body 
+{
+  background: #F9FAFC;
+  color:#9AA4AC;
+  font-family: "Open Sans";
+  }
+
+header
+{
+  width: 800px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+header a 
+{
+  padding: 0px;
+  display: block;
+}
+
+main 
+{
+  width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+footer 
+{
+  width: 800px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border-top: 1px solid #9AA4AC;
+}
+
+h1
+{
+  font-family: 'Ruge Boogie', cursive;
+  color: rgba(61, 198, 128, 1);
+  font-size: 6em;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: 80px 0;
+  margin: 30px 0;
+}
+
+nav
+{
+  text-align: center;
+  border-top: 1px solid #9AA4AC;
+  border-bottom: 1px solid #9AA4AC;
+}
+
+a
+{
+  color:#9AA4AC;
+  padding: 12px;
+  text-decoration: none;
+}
+
+nav a, footer a
+{
+  width: 160px;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav a:hover, footer a:hover 
+{
+  color: #9AA4AC;
+  background-color: #F2F2F3;
+}
+
+footer a
+{
+  width: 200px;
+  margin: 5px;
+}
+
+#imageblock
+{
+  padding: 10px 0;
+  text-align: center;
+}
+
+#imageblock img
+{
+  width: 190px;
+  margin: 3px;
+}
+
+.green
+{
+  color: #3DC680;
+}
+
+.red
+{
+  color: #E74880;
+}
+
+.store
+{
+  width: 99%;
+  margin-left: 10px;
+}
+
+.store td
+{
+  width: 33%;
+}
+
+.store td a 
+{
+  padding: 0px;
+}
+
+.store img
+{
+  width: 250px;
+}
+
+.store span 
+{
+  font-weight: bold;
+  display: block;
+}
