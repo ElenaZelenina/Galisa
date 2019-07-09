@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery - Galisa Inspiration</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="craft, gifts, home, accessories, jewerly, handmade" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Ruge+Boogie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="scripts/gallery.js"></script>
+    <script>
+        window.onload = function () {
+            let gallery = initGallery();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><span class="green">Galisa</span><span class="red">Inspiration</span></a></h1>
+    </header>
+    <main>
+        <nav>
+            <a href="about.html">A B O U T</a><a href="artwork.html">A R T W O R K</a><a href="store.html">S T O R
+                E</a><a href="workshop.html">W O R K S H O P</a><a href="contacts.html">C O N T A C T S</a>
+        </nav>
+        <div class="gallery">
+            <img src="images/gallery/accessory_purple.jpg" alt="Accessory purple" class="current" />
+            <img src="images/gallery/christmas.jpg" alt="Christmas Gift" />
+            <img src="images/gallery/eye.jpg" alt="Magical Eye" />
+            <img src="images/gallery/headband.jpg" alt="The Headband" />
+            <img src="images/gallery/horses.jpg" alt="Horses" />
+            <img src="images/gallery/zinger.jpg" alt="The Zinger Machine" />
+
+            <div class="navigation">
+                <i class="prev material-icons">arrow_left</i>
+                <i class="next material-icons">arrow_right</i>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2019 - designed by Elena Zelenina</p>
+    </footer>
+</body>
+
+</html>
