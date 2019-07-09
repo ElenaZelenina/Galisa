@@ -7,12 +7,12 @@ function initGallery() {
         currentIndex: 0,
     };
 
-    gallery.galleryLength = gallery.images.length,
+    gallery.galleryLength = gallery.images.length;
 
-        gallery.prevImage.onclick = function () {
-            gallery.currentIndex = gallery.currentIndex === 0 ? gallery.galleryLength - 1 : gallery.currentIndex - 1;
-            gallery.showCurrent();
-        }
+    gallery.prevImage.onclick = function () {
+        gallery.currentIndex = gallery.currentIndex === 0 ? gallery.galleryLength - 1 : gallery.currentIndex - 1;
+        gallery.showCurrent();
+    }
 
     gallery.nextImage.onclick = function () {
         gallery.currentIndex = (gallery.currentIndex === (gallery.galleryLength - 1)) ? 0 : gallery.currentIndex + 1;

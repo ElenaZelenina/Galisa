@@ -21,7 +21,10 @@
                 E</a><a href="workshop.html">W O R K S H O P</a><a href="contacts.html">C O N T A C T S</a>
         </nav>
         <h2>say hello</h2>
-            <form method="POST">
+            <form action="http://www.formbuddy.com/cgi-bin/form.pl" method="POST">
+                <input type="hidden" name="username" value="Galisa"> 
+                <input type="hidden" name="reqd" value="0">
+                <input type="hidden" name="url" value="http://galisa.art/contacts.html">
                 <label for="myName">Name:</label>
                 <input type="text" name="myName" id="myName">
                 <label for="myEmail">E-mail:</label>
@@ -29,7 +32,7 @@
                 <label for="myComments">Message:</label>
                 <textarea name="myComments" id="myComments" rows="2"
                 cols="20"></textarea>
-                <input id="mySubmit" type="submit" value="Submit">
+                <input name="mySubmit" id="mySubmit" type="submit" value="Submit">
                </form>
     </main>
     <footer>

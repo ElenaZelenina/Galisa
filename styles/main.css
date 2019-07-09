@@ -159,7 +159,12 @@ textarea
   height: 200px;
 }
 
-#mySubmit { margin-left: 110px; }
+#mySubmit 
+{ 
+  margin-left: 110px;
+  color:rgb(133, 142, 150); 
+  font-family: "Open Sans";
+}
 
 .gallery {
   height: 630px;
@@ -190,7 +195,7 @@ textarea
   font-weight: bold;
   font-size: 140px;
   line-height: 140px;
-  color: #9AA4AC;
+  color: rgb(217, 221, 223);
 }
 
 .gallery .navigation i.prev {
